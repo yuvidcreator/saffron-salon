@@ -2,7 +2,7 @@
 
 function Footer() {
     return (
-        <div className="text-black">Footer</div>
+        <div className="text-black text-center justify-center mt-20">Footer</div>
     )
 }
 

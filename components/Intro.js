@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { useRouter } from "next/router";;
+import { useRouter } from "next/router";
 
 function Intro() {
     const router = useRouter();
@@ -22,7 +22,7 @@ function Intro() {
 
                     <p className="text-xs text-center">
                         {" "}
-                        Get premier Access to Raya and the Latest Dragon for an additional fee with a Disney+ subsription. As of 04/20/22, the price of Disney+ and the Disney Bundle will increase by $.
+                        Welcome to a space designed with women at its heart. To relax, to be taken care of, to find yourself again. This is a space that lets you be, without any judgement. So walk in, let your hair down, or colour it red. Whatever your heart fancies, we promise to take care of you.
                     </p>
 
                     {/* <Image src="/images/1.jpeg" width="600" height="150" objectFit="contain" alt="logo" /> */}

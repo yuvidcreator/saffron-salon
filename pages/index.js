@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Brands from '../components/Brands'
 import Footer from '../components/Footer'
+import Gallery from '../components/Gallery'
 import Header from '../components/Header'
 import Intro from '../components/Intro'
 import Slider from '../components/Slider'
@@ -22,6 +23,7 @@ export default function Home() {
       <main>
         <Intro />
         <Brands />
+        <Gallery />
       </main>
       
       <Footer />
