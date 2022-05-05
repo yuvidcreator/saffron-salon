@@ -132,10 +132,10 @@ function Header() {
 
                     <div className="hidden md:flex ml-auto">
                         <div className="hidden ml-4 md:flex items-center space-x-4 text-white">
-                            <Link href={"/about"}>
+                            <Link href={"/"}>
                                 <a className="header-link group">
                                     <HomeIcon className="h-4" />
-                                    <span className="span">About</span>
+                                    <span className="span">Home</span>
                                 </a>
                             </Link>
 
