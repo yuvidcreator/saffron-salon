@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { FilmIcon, HomeIcon, PlusIcon, SearchIcon, StarIcon } from "@heroicons/react/solid";
+import { DotsCircleHorizontalIcon, FilmIcon, FolderIcon, HomeIcon, PlusIcon, SearchIcon, ServerIcon, StarIcon, UserGroupIcon } from "@heroicons/react/solid";
 import { useRouter } from "next/router";
 import { useState } from 'react';
 import Link from 'next/link';
@@ -24,29 +24,39 @@ function MobileNav({open, setOpen}) {
                     src="/0002.png" 
                     alt="" 
                     width={180} 
-                    height={54} 
+                    height={57} 
                     className="cursor-pointer" 
                     onClick={() => router.push("/")}
                     />
                 </div>
-                <div className="flex sticky flex-col ml-6 my-4">
+                <div className="flex sticky flex-col ml-6 my-4 space-y-4">
+                    <Link href="/">
+                        <a className="text-md font-medium inline-flex" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                            <HomeIcon className="h-4 mr-2" />
+                            Home
+                        </a>
+                    </Link>
                     <Link href="/about">
-                        <a className="text-md font-medium" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                        <a className="text-md font-normal inline-flex" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                            <UserGroupIcon className="h-4 mr-2" />
                             About
                         </a>
                     </Link>
                     <Link href="/services">
-                        <a className="text-md font-normal" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                        <a className="text-md font-normal inline-flex" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                            <ServerIcon className="h-4 mr-2" />
                             Services
                         </a>
                     </Link>
                     <Link href="/appointments">
-                        <a className="text-md font-normal" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                        <a className="text-md font-normal inline-flex" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                            <FolderIcon className="h-4 mr-2" />
                             Classes
                         </a>
                     </Link>
                     <Link href="/contact-us">
-                        <a className="text-md font-normal" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                        <a className="text-md font-normal inline-flex" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                            <DotsCircleHorizontalIcon className="h-4 mr-2" />
                             Contact us
                         </a>
                     </Link>
@@ -83,19 +93,19 @@ function Header() {
     return (
         <>
             <div className="px-4 py-1 bg-pink-500 text-white">
-                <p className="text-sm md:text-md text-center">
-                    We are raising prices on all products by Rs.100 by todya in support of the planet.{' '}
+                <p className="text-xs md:text-md text-center">
+                    We are raising prices on all services by Rs.50 by today in support of the planet.{' '}
                     <a href='#' className="underline">
                     Learn more
                     </a>
                 </p>
             </div>
-            <header className="sticky bg-black top-0 z-[1000] flex items-center px-2 h-[72px] md:px-12 shadow-md">
+            <header className="sticky bg-black top-0 z-[1000] flex items-center px-2 h-[63px] md:px-12 shadow-md">
                 <Image 
                     src="/0002.png" 
                     alt="" 
                     width={180} 
-                    height={54} 
+                    height={57} 
                     className="cursor-pointer" 
                     onClick={() => router.push("/")}
                 />
@@ -111,41 +121,48 @@ function Header() {
 
                 <div className="w-10/12 flex justify-end items-center">
                     <MobileNav open={open} setOpen={setOpen} />
-                    <div className="z-50 flex relative w-8 h-8 flex-col justify-between items-center md:hidden mr-4" onClick={() => {
+                    <div className="z-50 flex relative w-8 h-6 flex-col justify-between items-center md:hidden mr-4" onClick={() => {
                         setOpen(!open)
                     }}>
                         {/* hamburger button */}
-                        <span className={`h-1 w-full bg-white rounded-lg transform transition duration-300 ease-in-out ${open ? "rotate-45 translate-y-3.5" : ""}`} />
-                        <span className={`h-1 w-full bg-white rounded-lg transition-all duration-300 ease-in-out ${open ? "w-0" : "w-full"}`} />
-                        <span className={`h-1 w-full bg-white rounded-lg transform transition duration-300 ease-in-out ${open ? "-rotate-45 -translate-y-3.5" : ""}`} />
+                        <span className={`h-0.5 w-8 bg-white rounded-lg transform transition duration-300 ease-in-out ${open ? "rotate-45 translate-y-2.5" : ""}`} />
+                        <span className={`h-0.5 w-8 bg-white rounded-lg transition-all duration-300 ease-in-out ${open ? "w-0" : "w-full"}`} />
+                        <span className={`h-0.5 w-8 bg-white rounded-lg transform transition duration-300 ease-in-out ${open ? "-rotate-45 -translate-y-2.5" : ""}`} />
                     </div>
 
                     <div className="hidden md:flex ml-auto">
                         <div className="hidden ml-4 md:flex items-center space-x-4 text-white">
                             <Link href={"/about"}>
                                 <a className="header-link group">
-                                    {/* <HomeIcon className="h-4" /> */}
+                                    <HomeIcon className="h-4" />
+                                    <span className="span">About</span>
+                                </a>
+                            </Link>
+
+                            <Link href={"/about"}>
+                                <a className="header-link group">
+                                    <UserGroupIcon className="h-4" />
                                     <span className="span">About</span>
                                 </a>
                             </Link>
 
                             <Link href={"/services"}>
                                 <a className="header-link group">
-                                    {/* <SearchIcon className="h-4" /> */}
+                                    <SearchIcon className="h-4" />
                                     <span className="span">Services</span>
                                 </a>
                             </Link>
 
                             <Link href={"/appointments"}>
                                 <a className="header-link group">
-                                    {/* <PlusIcon className="h-4" /> */}
+                                    <FolderIcon className="h-4" />
                                     <span className="span">Classes</span>
                                 </a>
                             </Link>
 
                             <Link href={"/contact-us"}>
                                 <a className="header-link group">
-                                    {/* <StarIcon className="h-4" /> */}
+                                    <DotsCircleHorizontalIcon className="h-4" />
                                     <span className="span">Contact us</span>
                                 </a>
                             </Link>
@@ -164,9 +181,9 @@ function Header() {
                                 </svg>
                             </button> */}
 
-                            <button className="uppercase border px-4 py-1 ml-6 rounded font-medium text-white tracking-wide hover:bg-white hover:text-black transition duration-200">
+                            {/* <button className="uppercase border px-4 py-1 ml-6 rounded font-medium text-white tracking-wide hover:bg-white hover:text-black transition duration-200">
                                 Appointments
-                            </button>
+                            </button> */}
                         </div>
                     </div>
                 </div>

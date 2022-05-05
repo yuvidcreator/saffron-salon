@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: (theme) => ({
-        home: "url('/images/saffron-banner.webp')",
+        home: "url('/images/saffron-front-edit.png')",
       }),
     },
 
