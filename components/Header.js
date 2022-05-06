@@ -48,7 +48,7 @@ function MobileNav({open, setOpen}) {
                             Services
                         </a>
                     </Link>
-                    <Link href="/appointments">
+                    <Link href="/classes">
                         <a className="text-md font-normal inline-flex" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                             <FolderIcon className="h-4 mr-2" />
                             Classes
@@ -91,7 +91,7 @@ function Header() {
     const [open, setOpen] = useState(false);
 
     return (
-        <>
+        <header>
             <div className="px-4 py-1 bg-pink-500 text-white">
                 <p className="text-xs md:text-md text-center">
                     We are raising prices on all services by Rs.50 by today in support of the planet.{' '}
@@ -100,7 +100,7 @@ function Header() {
                     </a>
                 </p>
             </div>
-            <header className="sticky bg-black top-0 z-[1000] flex items-center px-2 h-[63px] md:px-12 shadow-md">
+            <nav className="sticky bg-black top-0 z-[1000] flex items-center px-2 h-[63px] md:px-12 shadow-md">
                 <Image 
                     src="/0002.png" 
                     alt="" 
@@ -134,35 +134,35 @@ function Header() {
                         <div className="hidden ml-4 md:flex items-center space-x-4 text-white">
                             <Link href={"/"}>
                                 <a className="header-link group">
-                                    <HomeIcon className="h-4" />
+                                    <HomeIcon className="h-4 group-hover:animate-bounce" />
                                     <span className="span">Home</span>
                                 </a>
                             </Link>
 
                             <Link href={"/about"}>
                                 <a className="header-link group">
-                                    <UserGroupIcon className="h-4" />
+                                    <UserGroupIcon className="h-4 group-hover:animate-bounce" />
                                     <span className="span">About</span>
                                 </a>
                             </Link>
 
                             <Link href={"/services"}>
                                 <a className="header-link group">
-                                    <SearchIcon className="h-4" />
+                                    <SearchIcon className="h-4 group-hover:animate-bounce" />
                                     <span className="span">Services</span>
                                 </a>
                             </Link>
 
-                            <Link href={"/appointments"}>
+                            <Link href={"/classes"}>
                                 <a className="header-link group">
-                                    <FolderIcon className="h-4" />
+                                    <FolderIcon className="h-4 group-hover:animate-bounce" />
                                     <span className="span">Classes</span>
                                 </a>
                             </Link>
 
                             <Link href={"/contact-us"}>
                                 <a className="header-link group">
-                                    <DotsCircleHorizontalIcon className="h-4" />
+                                    <DotsCircleHorizontalIcon className="h-4 group-hover:animate-bounce" />
                                     <span className="span">Contact us</span>
                                 </a>
                             </Link>
@@ -188,8 +188,8 @@ function Header() {
                     </div>
                 </div>
 
-            </header>
-        </>
+            </nav>
+        </header>
         
     )
 }

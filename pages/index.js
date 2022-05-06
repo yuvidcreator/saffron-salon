@@ -5,7 +5,6 @@ import Footer from '../components/Footer'
 import Gallery from '../components/Gallery'
 import Header from '../components/Header'
 import Intro from '../components/Intro'
-import Slider from '../components/Slider'
 
 
 export default function Home() {
@@ -18,8 +17,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Header />
-      
       <main>
         <Intro />
         <Brands />
