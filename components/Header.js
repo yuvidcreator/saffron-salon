@@ -91,7 +91,7 @@ function Header() {
     const [open, setOpen] = useState(false);
 
     return (
-        <header>
+        <>
             <div className="px-4 py-1 bg-pink-500 text-white">
                 <p className="text-xs md:text-md text-center">
                     We are raising prices on all services by Rs.50 by today in support of the planet.{' '}
@@ -189,7 +189,7 @@ function Header() {
                 </div>
 
             </nav>
-        </header>
+        </>
         
     )
 }
