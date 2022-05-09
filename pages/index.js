@@ -3,8 +3,10 @@ import Image from 'next/image'
 import Brands from '../components/Brands'
 import Footer from '../components/Footer'
 import Gallery from '../components/Gallery'
-import Header from '../components/Header'
 import Intro from '../components/Intro'
+import Rodamap from '../components/Rodamap'
+import Services from '../components/Services'
+import Team from '../components/Team'
 
 
 export default function Home() {
@@ -20,7 +22,10 @@ export default function Home() {
       <main>
         <Intro />
         <Brands />
+        <Services />
         <Gallery />
+        <Rodamap />
+        <Team />
       </main>
       
       <Footer />

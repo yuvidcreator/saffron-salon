@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function Slider() {
     return (
-        <section className="relative mt-3 shadow-xl max-w-screen-3xl mx-auto opacity-60">
+        <section className="relative mt-3 shadow-xl max-w-screen-3xl mx-auto">
             <Carousel 
                 autoPlay
                 infiniteLoop

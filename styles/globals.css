@@ -26,4 +26,13 @@
     @apply flex relative w-52 h-52 sm:w-64 sm:h-52 border-2 border-[#e9e9e9] border-opacity-10 rounded-lg cursor-pointer shadow-xl overflow-hidden hover:border-opacity-80 hover:shadow-2xl transform hover:scale-105 transition duration-300;
   }
 
+  input[type="radio"] {
+    display: none;
+  }
+
+  .star {
+    cursor: pointer;
+    transition: color 200ms;
+  }
+
 }

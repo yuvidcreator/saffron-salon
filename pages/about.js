@@ -4,6 +4,7 @@ import Brands from '../components/Brands'
 import Footer from '../components/Footer'
 import Gallery from '../components/Gallery'
 import Intro from '../components/Intro'
+import Slider from '../components/Slider'
 
 
 function About() {
@@ -43,6 +44,8 @@ function About() {
             </div>
 
             <h3 className="text-2xl font-bold text-center justify-center mt-20">About us Page</h3>
+
+            {/* <Slider /> */}
         </main>
         
         <Footer />

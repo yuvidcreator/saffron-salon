@@ -1,11 +1,12 @@
 import Image from 'next/image';
 import { useRouter } from "next/router";
+import StaticStarRating from './StaticStarRating';
 
 function Intro() {
     const router = useRouter();
 
     return (
-        <>
+        <section>
             <div className="relative min-h-[calc(100vh-72px)] bg-scroll">
                 <Image src="/images/saffron-front-edit.png" layout="fill" objectFit="cover" alt="hero background image" />
                 <div className="flex justify-center items-center">
@@ -13,7 +14,10 @@ function Intro() {
 
                         {/* <Image src="/0002.png" width="600" height="150" objectFit="contain" alt="logo" /> */}
                         <h3 className="text-white">Welcome to</h3>
-                        <div className="text-5xl text-center text-white justify-center font-extrabold"><h1>Saffron<br /> <span className=" text-pink-500">Beauty Salon</span></h1></div>
+                        <div className="text-5xl text-center text-white justify-center font-extrabold">
+                            <h1>Saffron<br /> <span className=" text-pink-500">Beauty Salon</span></h1>
+                            <StaticStarRating number={5}/>
+                        </div>
                         
                         {/* <button className="bg-blue-600 uppercase text-m tracking-wide font-extrabold py-4 px-6 rounded hover:bg-[#0485ee]">
                             Book An Appointment
@@ -32,7 +36,7 @@ function Intro() {
                 </div>
             </div>
             
-        </>
+        </section>
     )
 }
 
