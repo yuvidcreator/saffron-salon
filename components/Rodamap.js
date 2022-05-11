@@ -7,7 +7,7 @@ function Rodamap() {
             <div className="container relative mx-auto py-12">
                 <h2 className="mb-8 text-center justify-center text-3xl font-semibold underline decoration-pink-600 xl:text-4xl">Why Choose us?</h2>
 
-                <div className="relative flex flex-col p-6">
+                <div className="relative flex flex-col p-2">
                     <div className="absolute left-[50%] z-40 h-full md:w-[2px] rounded-full bg-pink-300/60 blur-sm lg:left-[44px]"></div>
 
                     <div className="my-3 flex flex-col items-center space-x-4 space-y-4 rounded-xl bg-purple-900 px-4 py-6 shadow-lg transition duration-300 hover:shadow-2xl lg:flex-row">

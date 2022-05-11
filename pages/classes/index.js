@@ -1,9 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Brands from '../components/Brands'
-import Footer from '../components/Footer'
-import Gallery from '../components/Gallery'
-import Intro from '../components/Intro'
+import Brands from '../../components/Brands'
+import Footer from '../../components/Footer'
+import Gallery from '../../components/Gallery'
+import Intro from '../../components/Intro'
 
 function classes() {
     return (
@@ -20,7 +20,7 @@ function classes() {
                 <h3 className="text-2xl font-bold text-center justify-center mt-20">Classes Page</h3>
             </main>
             
-            <Footer />
+            
         </>
     )
 }

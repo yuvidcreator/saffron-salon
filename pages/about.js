@@ -48,7 +48,7 @@ function About() {
             {/* <Slider /> */}
         </main>
         
-        <Footer />
+        
         </>
     )
 }

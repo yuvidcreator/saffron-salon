@@ -44,7 +44,7 @@ function Contact() {
                 <h3 className="text-2xl font-bold text-center justify-center mt-20">Contact us Page</h3>
             </main>
             
-            <Footer />
+            
         </>
     )
 }

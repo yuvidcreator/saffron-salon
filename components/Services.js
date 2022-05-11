@@ -13,7 +13,7 @@ function Services() {
                     <div className="flex flex-wrap -m-4">
                         <div className="p-4 md:w-1/4">
                             <div className="h-full rounded-lg overflow-hidden shadow-2xl ">
-                                <Image width={500} height={500} className="lg:h-48 md:h-36 w-full object-cover object-center transition-transform duration-300 hover:rotate-3 hover:scale-110" src="/images/9.jpeg" alt="blog" />
+                                <Image width={500} height={500} className="lg:h-48 md:h-36 w-full object-cover object-center transition-transform duration-300 hover:rotate-3 hover:scale-110" src="/images/12.jpeg" alt="blog" />
                                 <div className="p-6">
                                     <h2 className="tracking-widest text-xs title-font font-medium text-pink-600 mb-1">Makeup</h2>
                                     <h1 className="title-font text-lg font-bold text-black hover:text-pink-600 mb-3">The Bridal Makeup</h1>
@@ -67,10 +67,10 @@ function Services() {
 
                         <div className="p-4 md:w-1/4">
                             <div className="h-full rounded-lg overflow-hidden shadow-2xl ">
-                                <Image width={500} height={500} className="lg:h-48 md:h-36 w-full object-cover object-center transition-transform duration-300 hover:rotate-3 hover:scale-110" src="/images/9.jpeg" alt="blog" />
+                                <Image width={500} height={500} className="lg:h-48 md:h-36 w-full object-cover object-center transition-transform duration-300 hover:rotate-3 hover:scale-110" src="/images/1.jpeg" alt="blog" />
                                 <div className="p-6">
                                     <h4 className="tracking-widest text-xs title-font font-medium text-pink-600 mb-1">Makeup</h4>
-                                    <h3 className="title-font text-lg font-bold text-black hover:text-pink-600 mb-3">The Bridal Makeup</h3>
+                                    <h3 className="title-font text-lg font-bold text-black hover:text-pink-600 mb-3">Hair Smoothening</h3>
                                     <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
                                     <div className="flex items-center flex-wrap justify-between">
                                         <Link href="/about">
@@ -115,10 +115,82 @@ function Services() {
 
                         <div className="p-4 md:w-1/4">
                             <div className="h-full rounded-lg overflow-hidden shadow-2xl ">
-                                <Image width={500} height={500} className="lg:h-48 md:h-36 w-full object-cover object-center transition-transform duration-300 hover:rotate-3 hover:scale-110" src="/images/9.jpeg" alt="blog" />
+                                <Image width={500} height={500} className="lg:h-48 md:h-36 w-full object-cover object-center transition-transform duration-300 hover:rotate-3 hover:scale-110" src="/images/2.jpeg" alt="blog" />
                                 <div className="p-6">
                                     <h4 className="tracking-widest text-xs title-font font-medium text-pink-600 mb-1">Makeup</h4>
-                                    <h3 className="title-font text-lg font-bold text-black hover:text-pink-600 mb-3">The Bridal Makeup</h3>
+                                    <h3 className="title-font text-lg font-bold text-black hover:text-pink-600 mb-3">Nail Art & Nail Extensions</h3>
+                                    <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                    <div className="flex items-center flex-wrap justify-between">
+                                        <Link href="/about">
+                                            <a className="flex w-fit space-x-2 rounded-md bg-pink-600 px-4 py-3 font-semibold shadow-lg shadow-pink-500/20 transition-all duration-300 hover:-translate-y-[2px] hover:bg-black hover:shadow-blue-800/20 text-white">
+                                                Learn More
+                                                <svg className="w-4 h-6 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                                <path d="M5 12h14"></path>
+                                                <path d="M12 5l7 7-7 7"></path>
+                                                </svg>
+                                                
+                                            </a>
+                                        </Link>
+                                        <StaticStarRating number={3} />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="p-4 md:w-1/4">
+                            <div className="h-full rounded-lg overflow-hidden shadow-2xl ">
+                                <Image width={500} height={500} className="lg:h-48 md:h-36 w-full object-cover object-center transition-transform duration-300 hover:rotate-3 hover:scale-110" src="/images/11.jpeg" alt="blog" />
+                                <div className="p-6">
+                                    <h4 className="tracking-widest text-xs title-font font-medium text-pink-600 mb-1">Makeup</h4>
+                                    <h3 className="title-font text-lg font-bold text-black hover:text-pink-600 mb-3">Eyelineup Services</h3>
+                                    <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                    <div className="flex items-center flex-wrap justify-between">
+                                        <Link href="/about">
+                                            <a className="flex w-fit space-x-2 rounded-md bg-pink-600 px-4 py-3 font-semibold shadow-lg shadow-pink-500/20 transition-all duration-300 hover:-translate-y-[2px] hover:bg-black hover:shadow-blue-800/20 text-white">
+                                                Learn More
+                                                <svg className="w-4 h-6 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                                <path d="M5 12h14"></path>
+                                                <path d="M12 5l7 7-7 7"></path>
+                                                </svg>
+                                                
+                                            </a>
+                                        </Link>
+                                        <StaticStarRating number={4} />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="p-4 md:w-1/4">
+                            <div className="h-full rounded-lg overflow-hidden shadow-2xl ">
+                                <Image width={500} height={500} className="lg:h-48 md:h-36 w-full object-cover object-center transition-transform duration-300 hover:rotate-3 hover:scale-110" src="/images/3.jpeg" alt="blog" />
+                                <div className="p-6">
+                                    <h4 className="tracking-widest text-xs title-font font-medium text-pink-600 mb-1">Makeup</h4>
+                                    <h3 className="title-font text-lg font-bold text-black hover:text-pink-600 mb-3">Cleanup</h3>
+                                    <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                    <div className="flex items-center flex-wrap justify-between">
+                                        <Link href="/about">
+                                            <a className="flex w-fit space-x-2 rounded-md bg-pink-600 px-4 py-3 font-semibold shadow-lg shadow-pink-500/20 transition-all duration-300 hover:-translate-y-[2px] hover:bg-black hover:shadow-blue-800/20 text-white">
+                                                Learn More
+                                                <svg className="w-4 h-6 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                                <path d="M5 12h14"></path>
+                                                <path d="M12 5l7 7-7 7"></path>
+                                                </svg>
+                                                
+                                            </a>
+                                        </Link>
+                                        <StaticStarRating number={4} />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="p-4 md:w-1/4">
+                            <div className="h-full rounded-lg overflow-hidden shadow-2xl ">
+                                <Image width={500} height={500} className="lg:h-48 md:h-36 w-full object-cover object-center transition-transform duration-300 hover:rotate-3 hover:scale-110" src="/images/2.jpeg" alt="blog" />
+                                <div className="p-6">
+                                    <h4 className="tracking-widest text-xs title-font font-medium text-pink-600 mb-1">Makeup</h4>
+                                    <h3 className="title-font text-lg font-bold text-black hover:text-pink-600 mb-3">Waxing</h3>
                                     <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
                                     <div className="flex items-center flex-wrap justify-between">
                                         <Link href="/about">
@@ -142,79 +214,7 @@ function Services() {
                                 <Image width={500} height={500} className="lg:h-48 md:h-36 w-full object-cover object-center transition-transform duration-300 hover:rotate-3 hover:scale-110" src="/images/9.jpeg" alt="blog" />
                                 <div className="p-6">
                                     <h4 className="tracking-widest text-xs title-font font-medium text-pink-600 mb-1">Makeup</h4>
-                                    <h3 className="title-font text-lg font-bold text-black hover:text-pink-600 mb-3">The Bridal Makeup</h3>
-                                    <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                                    <div className="flex items-center flex-wrap justify-between">
-                                        <Link href="/about">
-                                            <a className="flex w-fit space-x-2 rounded-md bg-pink-600 px-4 py-3 font-semibold shadow-lg shadow-pink-500/20 transition-all duration-300 hover:-translate-y-[2px] hover:bg-black hover:shadow-blue-800/20 text-white">
-                                                Learn More
-                                                <svg className="w-4 h-6 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                                                <path d="M5 12h14"></path>
-                                                <path d="M12 5l7 7-7 7"></path>
-                                                </svg>
-                                                
-                                            </a>
-                                        </Link>
-                                        <StaticStarRating number={4} />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="p-4 md:w-1/4">
-                            <div className="h-full rounded-lg overflow-hidden shadow-2xl ">
-                                <Image width={500} height={500} className="lg:h-48 md:h-36 w-full object-cover object-center transition-transform duration-300 hover:rotate-3 hover:scale-110" src="/images/9.jpeg" alt="blog" />
-                                <div className="p-6">
-                                    <h4 className="tracking-widest text-xs title-font font-medium text-pink-600 mb-1">Makeup</h4>
-                                    <h3 className="title-font text-lg font-bold text-black hover:text-pink-600 mb-3">The Bridal Makeup</h3>
-                                    <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                                    <div className="flex items-center flex-wrap justify-between">
-                                        <Link href="/about">
-                                            <a className="flex w-fit space-x-2 rounded-md bg-pink-600 px-4 py-3 font-semibold shadow-lg shadow-pink-500/20 transition-all duration-300 hover:-translate-y-[2px] hover:bg-black hover:shadow-blue-800/20 text-white">
-                                                Learn More
-                                                <svg className="w-4 h-6 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                                                <path d="M5 12h14"></path>
-                                                <path d="M12 5l7 7-7 7"></path>
-                                                </svg>
-                                                
-                                            </a>
-                                        </Link>
-                                        <StaticStarRating number={4} />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="p-4 md:w-1/4">
-                            <div className="h-full rounded-lg overflow-hidden shadow-2xl ">
-                                <Image width={500} height={500} className="lg:h-48 md:h-36 w-full object-cover object-center transition-transform duration-300 hover:rotate-3 hover:scale-110" src="/images/9.jpeg" alt="blog" />
-                                <div className="p-6">
-                                    <h4 className="tracking-widest text-xs title-font font-medium text-pink-600 mb-1">Makeup</h4>
-                                    <h3 className="title-font text-lg font-bold text-black hover:text-pink-600 mb-3">The Bridal Makeup</h3>
-                                    <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                                    <div className="flex items-center flex-wrap justify-between">
-                                        <Link href="/about">
-                                            <a className="flex w-fit space-x-2 rounded-md bg-pink-600 px-4 py-3 font-semibold shadow-lg shadow-pink-500/20 transition-all duration-300 hover:-translate-y-[2px] hover:bg-black hover:shadow-blue-800/20 text-white">
-                                                Learn More
-                                                <svg className="w-4 h-6 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                                                <path d="M5 12h14"></path>
-                                                <path d="M12 5l7 7-7 7"></path>
-                                                </svg>
-                                                
-                                            </a>
-                                        </Link>
-                                        <StaticStarRating number={3} />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="p-4 md:w-1/4">
-                            <div className="h-full rounded-lg overflow-hidden shadow-2xl ">
-                                <Image width={500} height={500} className="lg:h-48 md:h-36 w-full object-cover object-center transition-transform duration-300 hover:rotate-3 hover:scale-110" src="/images/9.jpeg" alt="blog" />
-                                <div className="p-6">
-                                    <h4 className="tracking-widest text-xs title-font font-medium text-pink-600 mb-1">Makeup</h4>
-                                    <h3 className="title-font text-lg font-bold text-black hover:text-pink-600 mb-3">The Bridal Makeup</h3>
+                                    <h3 className="title-font text-lg font-bold text-black hover:text-pink-600 mb-3">Body Massage</h3>
                                     <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
                                     <div className="flex items-center flex-wrap justify-between">
                                         <Link href="/about">
