@@ -4,7 +4,7 @@ import Image from "next/image"
 function Brands() {
     return (
         <section className="flex flex-col md:flex-row justify-center items-center mt-10 gap-6 px-8 max-w-[1400px] mx-auto">
-            <h2 className="text-2xl text-pink-600">Our Services</h2>
+            <h2 className="text-2xl text-pink-600">We are Best in</h2>
             <div className="brand group">
                 {/* <h3>Hair Services</h3> */}
                 <Image src="/images/hairdresser.png" alt="" layout="fill" objectFit="cover" />

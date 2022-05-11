@@ -23,8 +23,8 @@ export default function Home() {
         <Intro />
         <Brands />
         <Services />
-        <Gallery />
         <Rodamap />
+        <Gallery />
         <Team />
       </main>
 

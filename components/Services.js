@@ -6,7 +6,7 @@ import StaticStarRating from "./StaticStarRating"
 function Services() {
     return (
         <section>
-            <h2 className="mt-20 mb-8 text-center justify-center text-3xl font-semibold underline decoration-pink-600 xl:text-4xl">Services</h2>
+            <h2 className="mt-20 mb-8 text-center justify-center text-3xl font-semibold underline decoration-pink-600 xl:text-4xl">Our Services</h2>
             
             <section className="text-gray-600 font-body">
                 <div className="container px-5 py-6 mx-auto">
