@@ -29,7 +29,6 @@ function Team(props) {
             <div className="gallery container relative z-10 mx-auto bg-repeat py-12 heropattern-plus-gray-700">
                 <h2 className="mb-8 text-center text-3xl font-semibold underline decoration-pink-600 xl:text-4xl">Team</h2>
 
-                
             </div>
         </>
     )

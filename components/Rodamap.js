@@ -16,12 +16,9 @@ function Rodamap() {
                         </div>
 
                         <div>
-                            <h3 className="mb-2 text-center text-2xl font-semibold text-white lg:text-left">Get the Direction</h3>
+                            <h3 className="mb-2 text-center text-2xl font-semibold text-white lg:text-left">Top Beauty Salon Near Me & Best Hair Salon in Dhanori</h3>
                             <p className="text-center font-light text-gray-300 lg:text-left">
-                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                            veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-                            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+                                With our professional experience and expertise, you will walk out of our doors revitalized, glowing, and confident. Helping you meet your personal beauty and wellness goals through our services.
                             </p>
                         </div>
                     </div>

@@ -23,7 +23,7 @@ function services() {
 
                             {/* <Image src="/0002.png" width="600" height="150" objectFit="contain" alt="logo" /> */}
                             <h3 className="text-white">Welcome to</h3>
-                            <div className="text-6xl text-center text-white justify-center font-extrabold"><h1>Contact<br /> <span className=" text-pink-500">us</span></h1></div>
+                            <div className="text-6xl text-center text-white justify-center font-extrabold"><h1>What we<br /> <span className=" text-pink-500">Offer</span></h1></div>
                             
                             {/* <button className="bg-blue-600 uppercase text-m tracking-wide font-extrabold py-4 px-6 rounded hover:bg-[#0485ee]">
                                 Book An Appointment
@@ -31,7 +31,7 @@ function services() {
                             
                             <p className="text-sm text-white text-center">
                                 {" "}
-                                A space designed with women at its heart. To relax, to be taken care of, to find yourself again. This is a space that lets you be, without any judgement. So walk in, let your hair down, or colour it red. Whatever your heart fancies, we promise to take care of you.
+                                Saffron Beauty Salon gives you the best experience in beauty, style, and wellness through high-end, personalized services, impeccable customer service, and top-notch talent. We also provide one-on-one consultations and pre-treatment consultations. We understand that as beauty therapists, we are in a position of trust and offer full confidentiality.
                             </p>
 
                             <button className="bg-gradient-to-r from-blue-600 to-purple-800 hover:bg-gradient-to-l uppercase text-medium tracking-wide text-white font-extrabold py-4 px-6 rounded-lg">Book an Appointment</button>

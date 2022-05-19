@@ -100,7 +100,7 @@ function Header() {
                     </a>
                 </p>
             </div>
-            <header className="sticky bg-black top-0 z-[1000] flex items-center px-2 h-[63px] md:px-12 shadow-md">
+            <header className="sticky bg-black top-0 z-[1000] flex items-center px-2 h-[63px] lg:px-12 shadow-md">
                 <Image 
                     src="/0002.png" 
                     alt="" 

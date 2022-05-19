@@ -55,6 +55,7 @@ function Footer() {
                         </p>
                     </div>
 
+
                     <div className="md:mb-6">
                         <input
                         type="text"

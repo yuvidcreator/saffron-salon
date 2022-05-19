@@ -11,13 +11,16 @@ function Services() {
             <section className="text-gray-600 font-body">
                 <div className="container px-5 py-6 mx-auto">
                     <div className="flex flex-wrap -m-4">
-                        <div className="p-4 md:w-1/4">
+                        <div className="p-4 lg:w-1/4 md:w-1/2">
                             <div className="h-full rounded-lg overflow-hidden shadow-2xl ">
                                 <Image width={500} height={500} className="lg:h-48 md:h-36 w-full object-cover object-center transition-transform duration-300 hover:rotate-3 hover:scale-110" src="/images/12.jpeg" alt="blog" />
                                 <div className="p-6">
                                     <h2 className="tracking-widest text-xs title-font font-medium text-pink-600 mb-1">Makeup</h2>
                                     <h1 className="title-font text-lg font-bold text-black hover:text-pink-600 mb-3">The Bridal Makeup</h1>
-                                    <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                    {/* <p className="leading-relaxed mb-3">Whether it’s everyday makeup that you want or makeup for a special event, our experts can ensure you turn out looking your best and fit for the occasion.</p> */}
+                                    <p className="leading-relaxed mb-3">
+                                        Get your wedding makeup and hair services for yourself and your entire bridal party. We will meet you at your location to ensure you look flawless on your special day.
+                                    </p>
                                     <div className="flex items-center flex-wrap justify-between">
                                     <Link href="/about">
                                         <a className="flex w-fit space-x-2 rounded-md bg-pink-600 px-4 py-3 font-semibold shadow-lg shadow-pink-500/20 transition-all duration-300 hover:-translate-y-[2px] hover:bg-black hover:shadow-blue-800/20 text-white">
@@ -65,13 +68,13 @@ function Services() {
                             </div>
                         </div>
 
-                        <div className="p-4 md:w-1/4">
+                        <div className="p-4 lg:w-1/4 md:w-1/2">
                             <div className="h-full rounded-lg overflow-hidden shadow-2xl ">
                                 <Image width={500} height={500} className="lg:h-48 md:h-36 w-full object-cover object-center transition-transform duration-300 hover:rotate-3 hover:scale-110" src="/images/1.jpeg" alt="blog" />
                                 <div className="p-6">
                                     <h4 className="tracking-widest text-xs title-font font-medium text-pink-600 mb-1">Makeup</h4>
                                     <h3 className="title-font text-lg font-bold text-black hover:text-pink-600 mb-3">Hair Smoothening</h3>
-                                    <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                    <p className="leading-relaxed mb-3">We use Oway organic hair color, the world’s first professional beauty line handcrafted with pure essential oils, biodynamic botanicals, and fair trade ingredients. It is also ecofriendly.</p>
                                     <div className="flex items-center flex-wrap justify-between">
                                         <Link href="/about">
                                             <a className="flex w-fit space-x-2 rounded-md bg-pink-600 px-4 py-3 font-semibold shadow-lg shadow-pink-500/20 transition-all duration-300 hover:-translate-y-[2px] hover:bg-black hover:shadow-blue-800/20 text-white">
@@ -89,13 +92,13 @@ function Services() {
                             </div>
                         </div>
 
-                        <div className="p-4 md:w-1/4">
+                        <div className="p-4 lg:w-1/4 md:w-1/2">
                             <div className="h-full rounded-lg overflow-hidden shadow-2xl ">
                                 <Image width={500} height={500} className="lg:h-48 md:h-36 w-full object-cover object-center transition-transform duration-300 hover:rotate-3 hover:scale-110" src="/images/9.jpeg" alt="blog" />
                                 <div className="p-6">
                                     <h4 className="tracking-widest text-xs title-font font-medium text-pink-600 mb-1">Makeup</h4>
-                                    <h3 className="title-font text-lg font-bold text-black hover:text-pink-600 mb-3">The Bridal Makeup</h3>
-                                    <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                    <h3 className="title-font text-lg font-bold text-black hover:text-pink-600 mb-3">Facials</h3>
+                                    <p className="leading-relaxed mb-3">Deluxe, aromatherapy, acne treatment and peels, and more. Not sure about the best facial for your skin type? Our professional will help you to decide which suits you best.</p>
                                     <div className="flex items-center flex-wrap justify-between">
                                         <Link href="/about">
                                             <a className="flex w-fit space-x-2 rounded-md bg-pink-600 px-4 py-3 font-semibold shadow-lg shadow-pink-500/20 transition-all duration-300 hover:-translate-y-[2px] hover:bg-black hover:shadow-blue-800/20 text-white">
@@ -113,7 +116,7 @@ function Services() {
                             </div>
                         </div>
 
-                        <div className="p-4 md:w-1/4">
+                        <div className="p-4 lg:w-1/4 md:w-1/2">
                             <div className="h-full rounded-lg overflow-hidden shadow-2xl ">
                                 <Image width={500} height={500} className="lg:h-48 md:h-36 w-full object-cover object-center transition-transform duration-300 hover:rotate-3 hover:scale-110" src="/images/2.jpeg" alt="blog" />
                                 <div className="p-6">
@@ -137,7 +140,7 @@ function Services() {
                             </div>
                         </div>
 
-                        <div className="p-4 md:w-1/4">
+                        <div className="p-4 lg:w-1/4 md:w-1/2">
                             <div className="h-full rounded-lg overflow-hidden shadow-2xl ">
                                 <Image width={500} height={500} className="lg:h-48 md:h-36 w-full object-cover object-center transition-transform duration-300 hover:rotate-3 hover:scale-110" src="/images/11.jpeg" alt="blog" />
                                 <div className="p-6">
@@ -161,7 +164,7 @@ function Services() {
                             </div>
                         </div>
 
-                        <div className="p-4 md:w-1/4">
+                        <div className="p-4 lg:w-1/4 md:w-1/2">
                             <div className="h-full rounded-lg overflow-hidden shadow-2xl ">
                                 <Image width={500} height={500} className="lg:h-48 md:h-36 w-full object-cover object-center transition-transform duration-300 hover:rotate-3 hover:scale-110" src="/images/3.jpeg" alt="blog" />
                                 <div className="p-6">
@@ -185,7 +188,7 @@ function Services() {
                             </div>
                         </div>
 
-                        <div className="p-4 md:w-1/4">
+                        <div className="p-4 lg:w-1/4 md:w-1/2">
                             <div className="h-full rounded-lg overflow-hidden shadow-2xl ">
                                 <Image width={500} height={500} className="lg:h-48 md:h-36 w-full object-cover object-center transition-transform duration-300 hover:rotate-3 hover:scale-110" src="/images/2.jpeg" alt="blog" />
                                 <div className="p-6">
@@ -209,7 +212,7 @@ function Services() {
                             </div>
                         </div>
 
-                        <div className="p-4 md:w-1/4">
+                        <div className="p-4 lg:w-1/4 md:w-1/2">
                             <div className="h-full rounded-lg overflow-hidden shadow-2xl ">
                                 <Image width={500} height={500} className="lg:h-48 md:h-36 w-full object-cover object-center transition-transform duration-300 hover:rotate-3 hover:scale-110" src="/images/9.jpeg" alt="blog" />
                                 <div className="p-6">
