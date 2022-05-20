@@ -40,10 +40,48 @@ function services() {
                         </div>
                     </div>
                 </div>
-                <h3 className="text-2xl font-bold text-center justify-center mt-20">Services Page</h3>
+
+                <div className="container max-w-5xl mx-auto m-8">
+                    <h3 className="mt-4 mb-8 text-center justify-center text-xl font-semibold underline decoration-pink-600 xl:text-3xl">Our Services</h3>
+                </div>
+
+                <div className="overflow-hidden text-gray-700 ">
+                    <div className="container px-5 py-2 mx-auto lg:pt-12 lg:px-32">
+                        <div className="flex flex-wrap -m-1 md:-m-2">
+                            <div className="flex flex-wrap md:w-1/2">
+                                <div className="w-full p-1 md:p-2">
+                                    <Image alt="gallery" width={990} height={1280} className="block object-cover object-center w-full h-full rounded-lg"
+                                    src="/images/services/service1.jpeg" />
+                                </div>
+                            </div>
+                            <div className="flex flex-wrap md:w-1/2">
+                                <div className="w-full p-1 md:p-2">
+                                    <Image alt="gallery" width={990} height={1280} className="block object-cover object-center w-full h-full rounded-lg"
+                                    src="/images/services/service2.jpeg" />
+                                </div>
+                            </div>
+                            <div className="flex flex-wrap md:w-1/2">
+                                <div className="w-full p-1 md:p-2">
+                                    <Image alt="gallery" width={990} height={1280} className="block object-cover object-center w-full h-full rounded-lg"
+                                    src="/images/services/service3.jpeg" />
+                                </div>
+                            </div>
+                            <div className="flex flex-wrap md:w-1/2">
+                                <div className="w-full p-1 md:p-2">
+                                    <Image alt="gallery" width={990} height={1280} className="block object-cover object-center w-full h-full rounded-lg"
+                                    src="/images/services/service4.jpeg" />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="flex text-center justify-center">
+                            <div className="w-full p-1 md:p-2">
+                                <Image alt="gallery" width={990} height={1280} className="block object-cover object-center w-full h-full rounded-lg"
+                                src="/images/services/service5.jpeg" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </main>
-            
-            
         </>
     )
 }

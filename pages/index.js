@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from "next/link"
 import Brands from '../components/Brands'
-import Footer from '../components/Footer'
+import CallToAction from '../components/CallToAction'
 import Gallery from '../components/Gallery'
 import Intro from '../components/Intro'
 import Rodamap from '../components/Rodamap'
@@ -23,9 +24,12 @@ export default function Home() {
         <Intro />
         <Brands />
         <Services />
-        <Rodamap />
+        <CallToAction />
+        {/* <Rodamap /> */}
         <Gallery />
-        <Team />
+        {/* <Team /> */}
+        <br />
+        <br />
       </main>
 
     </>

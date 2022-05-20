@@ -13,12 +13,12 @@ function Intro() {
                     <div className="absolute flex flex-col space-y-3 top-1/4 w-full justify-center items-center max-w-screen-sm mx-auto p-8 -mt-16">
 
                         {/* <Image src="/0002.png" width="600" height="150" objectFit="contain" alt="logo" /> */}
-                        <h3 className="text-white">Welcome to</h3>
+                        <h2 className="text-white">Welcome to</h2>
                         <div className="text-5xl text-center text-white justify-center font-extrabold">
                             <h1>Saffron<br /> <span className=" text-pink-500">Beauty Salon</span></h1>
                             <StaticStarRating number={5}/>
                         </div>
-                        
+                        <h3 className="text-white text-xl font-semibold">Creating Your best Look</h3>
                         {/* <button className="bg-blue-600 uppercase text-m tracking-wide font-extrabold py-4 px-6 rounded hover:bg-[#0485ee]">
                             Book An Appointment
                         </button> */}

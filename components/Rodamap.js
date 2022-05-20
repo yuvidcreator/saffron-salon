@@ -5,8 +5,11 @@ function Rodamap() {
     return (
         <section>
             <div className="container relative mx-auto py-12">
-                <h2 className="mb-8 text-center justify-center text-3xl font-semibold underline decoration-pink-600 xl:text-4xl">Why Choose us?</h2>
-
+                <div className="text-center justify-center">
+                    <h2 className="mb-4 text-3xl font-semibold underline decoration-pink-600 xl:text-4xl">Why Choose us?</h2>
+                    <p className="text-lg font-semibold text-pink-600">Your body Deservs more...</p>
+                </div>
+                
                 <div className="relative flex flex-col p-6">
                     {/* <div className="absolute left-[50%] z-40 h-full md:w-[2px] rounded-full bg-pink-300/60 blur-sm lg:left-[44px]"></div> */}
 

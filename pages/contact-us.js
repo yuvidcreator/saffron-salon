@@ -42,6 +42,7 @@ function Contact() {
                     </div>
                 </div>
                 <h3 className="text-2xl font-bold text-center justify-center mt-20">Contact us Page</h3>
+
             </main>
             
             

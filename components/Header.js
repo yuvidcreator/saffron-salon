@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { DotsCircleHorizontalIcon, FilmIcon, FolderIcon, HomeIcon, PlusIcon, SearchIcon, ServerIcon, StarIcon, UserGroupIcon } from "@heroicons/react/solid";
+import { DotsCircleHorizontalIcon, PhotographIcon, FolderIcon, HomeIcon, PlusIcon, SearchIcon, ServerIcon, StarIcon, UserGroupIcon } from "@heroicons/react/solid";
 import { useRouter } from "next/router";
 import { useState } from 'react';
 import Link from 'next/link';
@@ -48,13 +48,19 @@ function MobileNav({open, setOpen}) {
                             Services
                         </a>
                     </Link>
-                    <Link href="/classes">
+                    {/* <Link href="/classes">
                         <a className="text-md font-normal inline-flex" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                             <FolderIcon className="h-4 mr-2" />
                             Classes
                         </a>
+                    </Link> */}
+                    <Link href="/gallery">
+                        <a className="text-md font-normal inline-flex" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                            <PhotographIcon className="h-4 mr-2" />
+                            Gallery
+                        </a>
                     </Link>
-                    <Link href="/contact-us">
+                    <Link href="tel:+91-7038298223">
                         <a className="text-md font-normal inline-flex" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                             <DotsCircleHorizontalIcon className="h-4 mr-2" />
                             Contact us
@@ -76,9 +82,11 @@ function MobileNav({open, setOpen}) {
                     </div> */}
                 </div>
 
-                <button className="uppercase mt-8 border px-4 py-1 ml-6 rounded font-medium text-white tracking-wide hover:bg-white hover:text-black transition duration-200">
-                    Appointments
-                </button>
+                <Link href="https://wa.me/917208875838/" passHref>
+                    <button className="uppercase mt-8 border px-4 py-1 ml-6 rounded font-medium text-white tracking-wide hover:bg-white hover:text-black transition duration-200">
+                        Appointments
+                    </button>
+                </Link>
             </div>
         </>
     )
@@ -153,14 +161,21 @@ function Header() {
                                 </a>
                             </Link>
 
-                            <Link href={"/classes"}>
+                            {/* <Link href={"/classes"}>
                                 <a className="header-link group">
                                     <FolderIcon className="h-4 group-hover:animate-bounce" />
                                     <span className="span">Classes</span>
                                 </a>
+                            </Link> */}
+
+                            <Link href="/gallery">
+                                <a className="header-link group">
+                                    <PhotographIcon className="h-4 mr-2" />
+                                    <span className="span">Gallery</span>
+                                </a>
                             </Link>
 
-                            <Link href={"/contact-us"}>
+                            <Link href={"tel:+91-7038298223"}>
                                 <a className="header-link group">
                                     <DotsCircleHorizontalIcon className="h-4 group-hover:animate-bounce" />
                                     <span className="span">Contact us</span>
