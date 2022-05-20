@@ -165,7 +165,7 @@ function Services() {
 
                         <div className="p-4 lg:w-1/4 md:w-1/2">
                             <div className="h-full rounded-lg overflow-hidden shadow-2xl ">
-                                <Image width={500} height={500} className="lg:h-48 md:h-36 w-full object-cover object-center transition-transform duration-300 hover:rotate-3 hover:scale-110" src="/images/3.jpeg" alt="blog" />
+                                <Image width={500} height={500} className="lg:h-48 md:h-36 w-full object-cover object-center transition-transform duration-300 hover:rotate-3 hover:scale-110" src="/images/threading.jpg" alt="blog" />
                                 <div className="p-6">
                                     <h4 className="tracking-widest text-xs title-font font-medium text-pink-600 mb-1">Face Care</h4>
                                     <h3 className="title-font text-lg font-bold text-black hover:text-pink-600 mb-3">Threading</h3>
@@ -189,7 +189,7 @@ function Services() {
 
                         <div className="p-4 lg:w-1/4 md:w-1/2">
                             <div className="h-full rounded-lg overflow-hidden shadow-2xl ">
-                                <Image width={500} height={500} className="lg:h-48 md:h-36 w-full object-cover object-center transition-transform duration-300 hover:rotate-3 hover:scale-110" src="/images/2.jpeg" alt="blog" />
+                                <Image width={500} height={500} className="lg:h-48 md:h-36 w-full object-cover object-center transition-transform duration-300 hover:rotate-3 hover:scale-110" src="/images/leg-wax.jpg" alt="blog" />
                                 <div className="p-6">
                                     <h4 className="tracking-widest text-xs title-font font-medium text-pink-600 mb-1">Skin care</h4>
                                     <h3 className="title-font text-lg font-bold text-black hover:text-pink-600 mb-3">Waxing</h3>
@@ -213,7 +213,7 @@ function Services() {
 
                         <div className="p-4 lg:w-1/4 md:w-1/2">
                             <div className="h-full rounded-lg overflow-hidden shadow-2xl ">
-                                <Image width={500} height={500} className="lg:h-48 md:h-36 w-full object-cover object-center transition-transform duration-300 hover:rotate-3 hover:scale-110" src="/images/9.jpeg" alt="blog" />
+                                <Image width={500} height={500} className="lg:h-48 md:h-36 w-full object-cover object-center transition-transform duration-300 hover:rotate-3 hover:scale-110" src="/images/bodymassage.webp" alt="blog" />
                                 <div className="p-6">
                                     <h4 className="tracking-widest text-xs title-font font-medium text-pink-600 mb-1">Wellness</h4>
                                     <h3 className="title-font text-lg font-bold text-black hover:text-pink-600 mb-3">Body Massage</h3>
