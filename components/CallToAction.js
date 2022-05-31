@@ -16,7 +16,7 @@ function CallToAction() {
                         <div className="max-w-md mx-auto">
                             <p className="mb-20 text-lg text-gray-200">If you have a look you want but don't know how to achieve, we can work together to form a plan. Stick with us. We offer a free clean-up cut between your appointments and solid advice on how to keep your hair healthy!</p>
                             <Link href="https://wa.me/917208875838/" passHref>
-                                <a className="inline-block mb-4 sm:mb-0 sm:mr-4 py-5 px-12 text-white font-bold bg-blue-500 hover:bg-blue-600 rounded-full transition duration-200">Join us now</a>
+                                <a target={"new"} className="inline-block mb-4 sm:mb-0 sm:mr-4 py-5 px-12 text-white font-bold bg-blue-500 hover:bg-blue-600 rounded-full transition duration-200">Join us now</a>
                             </Link>
                             <Link href="tel:+91-7208875838" passHref>
                                 <a className="inline-block py-5 px-12 text-white font-bold border border-gray-300 hover:border-gray-200 rounded-full">Call Now</a>

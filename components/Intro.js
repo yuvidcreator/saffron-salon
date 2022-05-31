@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import { useRouter } from "next/router";
 import StaticStarRating from './StaticStarRating';
 
@@ -28,8 +29,9 @@ function Intro() {
                             {" "}
                             A space designed with women at its heart. To relax, to be taken care of, to find yourself again. This is a space that lets you be, without any judgement. So walk in, let your hair down, or colour it red. Whatever your heart fancies, we promise to take care of you.
                         </p>
-
-                        <button className="bg-gradient-to-r from-blue-600 to-purple-800 hover:bg-gradient-to-l uppercase text-medium tracking-wide text-white font-extrabold py-3 px-5 rounded-lg">Book an Appointment</button>
+                        <Link href="tel:+91-7038298223" passHref>
+                            <a target={"new"} className="bg-gradient-to-r from-blue-600 to-purple-800 hover:bg-gradient-to-l uppercase text-medium tracking-wide text-white font-extrabold py-3 px-5 rounded-lg">Book an Appointment</a>
+                        </Link>
 
                         {/* <Image src="/images/1.jpeg" width="600" height="150" objectFit="contain" alt="logo" /> */}
                     </div>
