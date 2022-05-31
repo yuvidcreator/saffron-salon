@@ -102,7 +102,7 @@ function Footer() {
 
                 <div className="mb-6">
                     <p className="lg:ml-72 lg:mr-72 mb-12 mt-6">
-                    As professionals and revered estheticians, we provide Beauty Services with a passion to improve your skin, lokk using the best Available products. We ensure for all types of skin ,Safe and high effcient for our lovely customers.!!
+                    As professionals and revered estheticians, we provide Beauty Services with a passion to improve your skin, look using the best Available products. We ensure for all types of skin ,Safe and high effcient for our lovely customers.!!
                     </p>
                 </div>
 
