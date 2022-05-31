@@ -57,13 +57,13 @@ function services() {
                             <div className="flex flex-wrap md:w-1/2">
                                 <div className="w-full p-1 md:p-2">
                                     <Image alt="gallery" width={990} height={1280} className="block object-cover object-center w-full h-full rounded-lg"
-                                    src="/images/services/service2.jpeg" />
+                                    src="/images/services/service3.jpeg" />
                                 </div>
                             </div>
                             <div className="flex flex-wrap md:w-1/2">
                                 <div className="w-full p-1 md:p-2">
                                     <Image alt="gallery" width={990} height={1280} className="block object-cover object-center w-full h-full rounded-lg"
-                                    src="/images/services/service3.jpeg" />
+                                    src="/images/services/service2.jpeg" />
                                 </div>
                             </div>
                             <div className="flex flex-wrap md:w-1/2">

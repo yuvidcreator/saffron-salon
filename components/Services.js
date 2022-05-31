@@ -11,12 +11,12 @@ function Services() {
             <div className="text-gray-600 font-body">
                 <div className="container px-5 py-6 mx-auto">
                     <div className="flex flex-wrap -m-4">
-                        <div className="p-4 lg:w-1/4 md:w-1/2">
+                        <div className="p-4 lg:w-1/3 md:w-1/2">
                             <div className="h-full rounded-lg overflow-hidden shadow-2xl ">
                                 <Image width={500} height={500} className="lg:h-48 md:h-36 w-full object-cover object-center transition-transform duration-300 hover:rotate-3 hover:scale-110" src="/images/12.jpeg" alt="blog" />
                                 <div className="p-6">
                                     <h2 className="tracking-widest text-xs title-font font-medium text-pink-600 mb-1">Makeup</h2>
-                                    <h1 className="title-font text-lg font-bold text-black hover:text-pink-600 mb-3">The Bridal Makeup</h1>
+                                    <h1 className="title-font text-lg font-bold text-black hover:text-pink-600 mb-3">Makeup Services</h1>
                                     {/* <p className="leading-relaxed mb-3">Whether it’s everyday makeup that you want or makeup for a special event, our experts can ensure you turn out looking your best and fit for the occasion.</p> */}
                                     <p className="leading-relaxed mb-3">
                                         Get your wedding makeup and hair services for yourself and your entire bridal party. We will meet you at your location to ensure you look flawless on your special day.
@@ -67,12 +67,12 @@ function Services() {
                             </div>
                         </div>
 
-                        <div className="p-4 lg:w-1/4 md:w-1/2">
+                        <div className="p-4 lg:w-1/3 md:w-1/2">
                             <div className="h-full rounded-lg overflow-hidden shadow-2xl ">
                                 <Image width={500} height={500} className="lg:h-48 md:h-36 w-full object-cover object-center transition-transform duration-300 hover:rotate-3 hover:scale-110" src="/images/1.jpeg" alt="blog" />
                                 <div className="p-6">
                                     <h4 className="tracking-widest text-xs title-font font-medium text-pink-600 mb-1">Hair Care</h4>
-                                    <h3 className="title-font text-lg font-bold text-black hover:text-pink-600 mb-3">Hair Services</h3>
+                                    <h3 className="title-font text-lg font-bold text-black hover:text-pink-600 mb-3">Hair Care Services</h3>
                                     <p className="leading-relaxed mb-3">We use best suited hair color, the world’s first professional beauty line handcrafted with pure essential oils, biodynamic botanicals, and fair trade ingredients. It is also ecofriendly.</p>
                                     <div className="flex items-center flex-wrap justify-between">
                                         <Link href="/services">
@@ -91,12 +91,12 @@ function Services() {
                             </div>
                         </div>
 
-                        <div className="p-4 lg:w-1/4 md:w-1/2">
+                        <div className="p-4 lg:w-1/3 md:w-1/2">
                             <div className="h-full rounded-lg overflow-hidden shadow-2xl ">
                                 <Image width={500} height={500} className="lg:h-48 md:h-36 w-full object-cover object-center transition-transform duration-300 hover:rotate-3 hover:scale-110" src="/images/facial.jpg" alt="blog" />
                                 <div className="p-6">
                                     <h4 className="tracking-widest text-xs title-font font-medium text-pink-600 mb-1">Skin Care</h4>
-                                    <h3 className="title-font text-lg font-bold text-black hover:text-pink-600 mb-3">Cleanup & Facials</h3>
+                                    <h3 className="title-font text-lg font-bold text-black hover:text-pink-600 mb-3">Beauty Services</h3>
                                     <p className="leading-relaxed mb-3">Deluxe, aromatherapy, acne treatment and peels, and more. Not sure about the best facial for your skin type? Our professional will help you to decide which suits you best.</p>
                                     <div className="flex items-center flex-wrap justify-between">
                                         <Link href="/services">
@@ -115,12 +115,12 @@ function Services() {
                             </div>
                         </div>
 
-                        <div className="p-4 lg:w-1/4 md:w-1/2">
+                        <div className="p-4 lg:w-1/3 md:w-1/2">
                             <div className="h-full rounded-lg overflow-hidden shadow-2xl ">
                                 <Image width={500} height={500} className="lg:h-48 md:h-36 w-full object-cover object-center transition-transform duration-300 hover:rotate-3 hover:scale-110" src="/images/2.jpeg" alt="blog" />
                                 <div className="p-6">
                                     <h4 className="tracking-widest text-xs title-font font-medium text-pink-600 mb-1">Nails Care</h4>
-                                    <h3 className="title-font text-lg font-bold text-black hover:text-pink-600 mb-3">Nail Art & Nail Extensions</h3>
+                                    <h3 className="title-font text-lg font-bold text-black hover:text-pink-600 mb-3">Nail Extensions & Nail Art</h3>
                                     <p className="leading-relaxed mb-3">We strive to provide The Best Nail Salon in Dhanori Pune with top-class guest services at an affordable cost. Experience our precision Nail Cutting & Polishing, Nail Spa, Nail Extension etc.</p>
                                     <div className="flex items-center flex-wrap justify-between">
                                         <Link href="/services">
@@ -139,7 +139,7 @@ function Services() {
                             </div>
                         </div>
 
-                        <div className="p-4 lg:w-1/4 md:w-1/2">
+                        {/* <div className="p-4 lg:w-1/4 md:w-1/2">
                             <div className="h-full rounded-lg overflow-hidden shadow-2xl ">
                                 <Image width={500} height={500} className="lg:h-48 md:h-36 w-full object-cover object-center transition-transform duration-300 hover:rotate-3 hover:scale-110" src="/images/11.jpeg" alt="blog" />
                                 <div className="p-6">
@@ -209,9 +209,9 @@ function Services() {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
 
-                        <div className="p-4 lg:w-1/4 md:w-1/2">
+                        <div className="p-4 lg:w-1/3 md:w-1/2">
                             <div className="h-full rounded-lg overflow-hidden shadow-2xl ">
                                 <Image width={500} height={500} className="lg:h-48 md:h-36 w-full object-cover object-center transition-transform duration-300 hover:rotate-3 hover:scale-110" src="/images/bodymassage.webp" alt="blog" />
                                 <div className="p-6">
