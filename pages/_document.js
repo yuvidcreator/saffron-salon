@@ -1,10 +1,22 @@
 import { Html, Head, Main, NextScript } from 'next/document';
+import { GTM_ID } from '../lib/Gtm'
 
 
 export default function Document() {
     return (
         <Html lang="en">
             <Head>
+                {/* <script
+                    data-partytown-config
+                    dangerouslySetInnerHTML={{
+                        __html: `
+                            partytown = {
+                                lib: "/_next/static/~partytown/",
+                                debug: true
+                            };
+                        `,
+                    }}
+                /> */}
                 <meta name='application-name' content='Saffron Beauty Salon App' />
                 <meta name='apple-mobile-web-app-capable' content='yes' />
                 <meta name='apple-mobile-web-app-status-bar-style' content='default' />
@@ -29,6 +41,14 @@ export default function Document() {
                 <link rel='shortcut icon' href='/favicon.ico' />
             </Head>
             <body>
+                <noscript>
+                    <iframe
+                        src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
+                        height="0"
+                        width="0"
+                        style={{ display: 'none', visibility: 'hidden' }}
+                    />
+                </noscript>
                 <Main />
 
                 <NextScript />
