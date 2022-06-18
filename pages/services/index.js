@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import BookButton from '../../components/BookButton'
 import Brands from '../../components/Brands'
 import Footer from '../../components/Footer'
 import Gallery from '../../components/Gallery'
@@ -9,10 +10,23 @@ function services() {
     return (
         <>
             <Head>
-                <title>Saffron Beauty Salon</title>
-                <meta name="description" content="Saffron Beauty Salon, Beauty Parlour in dhanori, Makeup, Bridal makeup, Nails and Nail extensions, Waxing, hair smoothening, full body massage" />
-                <meta name="description" content="Saffron Beauty Salon Next App" />
-                <link rel="icon" href="/favicon.ico" />
+                <title>Beauty Services | Saffron Beauty Salon</title>
+                <meta name='description' content='Get variety of Beauty & Hair Services, Makeup, Nails & Female Full Body Massages at Saffron Beauty Salon. Get all pricing.' />
+                <meta name="keywords" content="Saffron Beauty Salon, Beauty Parlour in dhanori, Makeup, Bridal makeup, Nails and Nail extensions, Waxing, hair smoothening, full body massage" />
+
+                <meta name='twitter:card' content='summary' />
+                <meta name='twitter:url' content='https://www.saffronbeautysalon.com' />
+                <meta name='twitter:title' content='Beauty Services | Saffron Beauty Salon' />
+                <meta name='twitter:description' content='Get variety of Beauty & Hair Services, Makeup, Nails & Female Full Body Massages at Saffron Beauty Salon. Get all pricing.' />
+                <meta name='twitter:image' content='https://www.saffronbeautysalon.com/512x512.png' />
+                <meta name='twitter:creator' content='@saffronbeautysalonspa' />
+
+                <meta property='og:type' content='website' />
+                <meta property='og:title' content='Beauty Services | Saffron Beauty Salon' />
+                <meta property='og:description' content='Get variety of Beauty & Hair Services, Makeup, Nails & Female Full Body Massages at Saffron Beauty Salon. Get all pricing.' />
+                <meta property='og:site_name' content='Saffron Beauty Salon App' />
+                <meta property='og:url' content='https://www.facebook.com/saffronbeautysalonspa/' />
+                <meta property='og:image' content='https://www.saffronbeautysalon.com/512x512.png' />
             </Head>
 
             <main>
@@ -34,7 +48,7 @@ function services() {
                                 Saffron Beauty Salon gives you the best experience in beauty, style, and wellness through high-end, personalized services, impeccable customer service, and top-notch talent. We also provide one-on-one consultations and pre-treatment consultations. We understand that as beauty therapists, we are in a position of trust and offer full confidentiality.
                             </p>
 
-                            <button className="bg-gradient-to-r from-blue-600 to-purple-800 hover:bg-gradient-to-l uppercase text-medium tracking-wide text-white font-extrabold py-4 px-6 rounded-lg">Book an Appointment</button>
+                            <BookButton />
 
                             {/* <Image src="/images/1.jpeg" width="600" height="150" objectFit="contain" alt="logo" /> */}
                         </div>

@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from "next/router";
+import BookButton from './BookButton';
 import StaticStarRating from './StaticStarRating';
 
 function Intro() {
@@ -15,7 +16,7 @@ function Intro() {
 
                         {/* <Image src="/0002.png" width="600" height="150" objectFit="contain" alt="logo" /> */}
                         <h2 className="text-white">Welcome to</h2>
-                        <div className="text-5xl text-center text-white justify-center font-extrabold">
+                        <div className="text-3xl md:text-5xl text-center text-white justify-center font-extrabold">
                             <h1>Saffron<br /> <span className=" text-pink-500">Beauty Salon</span></h1>
                             <StaticStarRating number={5}/>
                         </div>
@@ -29,9 +30,7 @@ function Intro() {
                             {" "}
                             A space designed with women at its heart. To relax, to be taken care of, to find yourself again. This is a space that lets you be, without any judgement. So walk in, let your hair down, or colour it red. Whatever your heart fancies, we promise to take care of you.
                         </p>
-                        <Link href="tel:+91-7038298223" passHref>
-                            <a target={"new"} className="bg-gradient-to-r from-blue-600 to-purple-800 hover:bg-gradient-to-l uppercase text-medium tracking-wide text-white font-extrabold py-3 px-5 rounded-lg">Book an Appointment</a>
-                        </Link>
+                        <BookButton />
 
                         {/* <Image src="/images/1.jpeg" width="600" height="150" objectFit="contain" alt="logo" /> */}
                     </div>

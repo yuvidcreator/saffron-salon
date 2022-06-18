@@ -9,10 +9,9 @@ function About() {
     return (
         <>
         <Head>
-            <title>Saffron Beauty Salon</title>
+            <title>About Saffron Beauty Salon</title>
             <meta name="description" content="Saffron Beauty Salon, Beauty Parlour in dhanori, Makeup, Bridal makeup, Nails and Nail extensions, Waxing, hair smoothening, full body massage" />
-            <meta name="description" content="Saffron Beauty Salon Next App" />
-            <link rel="icon" href="/favicon.ico" />
+            <meta name="description" content="Get styled by Saffron Beauty Salon. We gives you the best experience with high quality professionals in Beauty & Hair Services, Makeup, Nails & Female Full Body Massages." />
         </Head>
 
         <main>
@@ -114,17 +113,17 @@ function About() {
                 <div className="overflow-hidden text-gray-700 mb-20">
                     <div className="container px-5 py-2 mx-auto lg:pt-8 lg:px-32">
                         <div className="flex flex-wrap -m-1 md:-m-2">
-                            <div className="flex flex-wrap w-1/3">
+                            <div className="flex flex-wrap md:w-1/3">
                                 <div className="w-full p-1 md:p-2">
                                     <Image alt="gallery" width={600} height={400} className="block object-cover object-center w-full h-full rounded-lg" src="/images/cert.jpeg" />
                                 </div>
                             </div>
-                            <div className="flex flex-wrap w-1/3">
+                            <div className="flex flex-wrap md:w-1/3">
                                 <div className="w-full p-1 md:p-2">
                                     <Image alt="gallery" width={600} height={400} className="block object-cover object-center w-full h-full rounded-lg"src="/images/cert1.jpeg" />
                                 </div>
                             </div>
-                            <div className="flex flex-wrap w-1/3">
+                            <div className="flex flex-wrap md:w-1/3">
                                 <div className="w-full p-1 md:p-2">
                                     <Image alt="gallery" width={600} height={400} className="block object-cover object-center w-full h-full rounded-lg" src="/images/cert2.jpeg" />
                                 </div>
@@ -149,13 +148,13 @@ function About() {
                             <p className="text-gray-600 md:mb-8">We have been serving our clients over 15 years with our professional skills. We want our clients to escape from the busy life and tiredness at here Saffron Beauty Salon. We've been delivering the most professional & modernist Beauty Services to our clients with our best effort.</p>
                         </div>
 
-                        <div className="w-full sm:w-1/2 p-6">
+                        <div className="w-full sm:w-1/2 sm:p-6">
                             <Image alt="beauty banner" width={700} height={500} src="/images/parlour.webp" className="" />
                         </div>
                     </div>
                     
                     {/* For Desktop view */}
-                    <div className="hidden lg:block ">
+                    <div className="hidden md:block ">
                         <div className="flex flex-wrap">
                             <div className="w-5/6 sm:w-1/2 p-6">
                             <Image alt="beauty banner" width={700} height={700} src="/images/hair.jpg" className="" />
@@ -171,7 +170,7 @@ function About() {
                     </div>
 
                     {/* for mobile view */}
-                    <div className="flex-wrap lg:hidden">
+                    <div className="flex-wrap md:hidden">
 
                         <div className="w-full sm:w-1/2 p-6">
                             <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">
@@ -180,7 +179,7 @@ function About() {
                             <p className="text-gray-600 mb-8">State ot the Art Equipment, Immaculate Hygeine, Extraordinary services with the perfect blend of skilled and certified professionals and quality products adhering to international standards in pocket friendly costs. Also known for their cutting-edge styles and always promises to stay up on the latest trends and fashions.</p>
                         </div>
 
-                        <div className="w-5/6 sm:w-1/2 p-6">
+                        <div className="w-5/6 sm:w-1/2 sm:p-4">
                             <Image alt="beauty banner" width={700} height={700} src="/images/hair.jpg" className="" />
                         </div>
                     </div>

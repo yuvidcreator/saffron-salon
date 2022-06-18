@@ -14,10 +14,10 @@ export default function Home() {
   return (
     <>
       <Head>
+        <meta name='viewport' content='minimum-scale=1, initial-scale=1, width=device-width, viewport-fit=cover' />
         <title>Saffron Beauty Salon</title>
-        <meta name="description" content="Saffron Beauty Salon, Beauty Parlour in dhanori, Makeup, Bridal makeup, Nails and Nail extensions, Waxing, hair smoothening, full body massage" />
-        <meta name="description" content="Saffron Beauty Salon Next App" />
-        <link rel="icon" href="/favicon.ico" />
+        <meta name="keywords" content="Saffron Beauty Salon, Beauty Parlour in dhanori, Makeup, Bridal makeup, Nails and Nail extensions, Waxing, hair smoothening, full body massage" />
+        <meta name="description" content="Get styled by Saffron Beauty Salon. We gives you the best experience with high quality professionals in Beauty & Hair Services, Makeup, Nails & Female Full Body Massages." />
       </Head>
 
       <main>

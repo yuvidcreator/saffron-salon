@@ -11,9 +11,21 @@ function Contact() {
         <>
             <Head>
                 <title>Saffron Beauty Salon</title>
-                <meta name="description" content="Saffron Beauty Salon, Beauty Parlour in dhanori, Makeup, Bridal makeup, Nails and Nail extensions, Waxing, hair smoothening, full body massage" />
+                <meta name="keywords" content="Saffron Beauty Salon, Beauty Parlour in dhanori, Makeup, Bridal makeup, Nails and Nail extensions, Waxing, hair smoothening, full body massage" />
                 <meta name="description" content="Saffron Beauty Salon Next App" />
-                <link rel="icon" href="/favicon.ico" />
+                <meta name='twitter:card' content='summary' />
+                <meta name='twitter:url' content='https://www.saffronbeautysalon.com' />
+                <meta name='twitter:title' content='Beauty Services | Saffron Beauty Salon' />
+                <meta name='twitter:description' content='Get variety of Beauty & Hair Services, Makeup, Nails & Female Full Body Massages at Saffron Beauty Salon. Get all pricing.' />
+                <meta name='twitter:image' content='https://www.saffronbeautysalon.com/512x512.png' />
+                <meta name='twitter:creator' content='@saffronbeautysalonspa' />
+
+                <meta property='og:type' content='website' />
+                <meta property='og:title' content='Beauty Services | Saffron Beauty Salon' />
+                <meta property='og:description' content='Get variety of Beauty & Hair Services, Makeup, Nails & Female Full Body Massages at Saffron Beauty Salon. Get all pricing.' />
+                <meta property='og:site_name' content='Saffron Beauty Salon App' />
+                <meta property='og:url' content='https://www.facebook.com/saffronbeautysalonspa/' />
+                <meta property='og:image' content='https://www.saffronbeautysalon.com/512x512.png' />
             </Head>
 
             <main>
