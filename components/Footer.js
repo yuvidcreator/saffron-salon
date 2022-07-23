@@ -23,7 +23,7 @@ function Footer() {
                         <FaInstagram className="ml-2 mt-2 mx-auto" />
                     </a>
 
-                    <a href="https://wa.me/917038298223" type="button" className="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-green-500 hover:border-green-500 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+                    <a href="https://wa.me/917208875838" type="button" className="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-green-500 hover:border-green-500 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
                         <FaWhatsapp className="ml-2 mt-2 mx-auto" />
                     </a>
 

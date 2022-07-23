@@ -60,7 +60,7 @@ function MobileNav({open, setOpen}) {
                             Gallery
                         </a>
                     </Link>
-                    <Link href="tel:+91-7038298223">
+                    <Link href="tel:+91-7208875838">
                         <a className="text-md font-normal inline-flex" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                             <DotsCircleHorizontalIcon className="h-4 mr-2" />
                             Contact us
@@ -175,7 +175,7 @@ function Header() {
                                 </a>
                             </Link>
 
-                            <Link href={"tel:+91-7038298223"}>
+                            <Link href={"tel:+91-7208875838"}>
                                 <a className="header-link group">
                                     <DotsCircleHorizontalIcon className="h-4 group-hover:animate-bounce" />
                                     <span className="span">Contact us</span>
