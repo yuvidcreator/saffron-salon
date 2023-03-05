@@ -6,7 +6,7 @@ import { FaFacebook, FaTwitter, FaInstagram, FaStore, FaLinkedinIn, FaWhatsapp }
 function Footer() {
     return (
         <footer className="text-center bg-black text-white">
-            <div className="container px-6 pt-6">
+            <div className="px-6 pt-6">
                 <div className="mt-8 mb-8">
                     <Link href={"/"} passHref>
                         <Image src="/0002.png" alt="Saffron Logo" width={210} height={63} />
@@ -219,7 +219,7 @@ function Footer() {
 
             <div className="text-center p-4 bg-black">
                 {(new Date().getFullYear())} © Saffron Beauty Salon | Designed by 
-                <a className="text-white" href="https://neurosoftech.org/" > NeurosofTech</a>
+                <a className="text-white" href="https://www.webinoxmedia.com/" > WebinoxMedia</a>
             </div>
         </footer>
     )
